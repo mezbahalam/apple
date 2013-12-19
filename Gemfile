@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
@@ -35,6 +35,7 @@ group :doc do
 end
 group :production do
   gem 'pg', '0.17.0'
+  gem 'activerecord-postgresql-adapter', '~> 0.0.1'
 end
 
 group :development,:test do
